@@ -1,0 +1,17 @@
+local module = {}
+
+local SeasoningModifier=require(script.SeasoningModifier)
+
+function module.CalculateExp(DishItem)
+	local total=50
+	if DishItem.State=="Shiny" then
+		total=total*2
+	end
+	if DishItem.TrueSeasoningName and DishItem.TrueSeasoningName~="" then
+		print(DishItem.TrueSeasoningName)
+		total=total*SeasoningModifier.GetMultiplier(DishItem.TrueSeasoningName)
+	end
+	return math.floor(total*(DishItem.TierCount^0.6))
+end
+
+return module
