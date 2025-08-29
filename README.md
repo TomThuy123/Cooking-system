@@ -1,5 +1,5 @@
 # Cooking-system
-A cooking system that allows for endless amount of possible recipe.
+A cooking system that allows for endless amount of possible recipe alongside with tier system/rarity system
 
 Please insert the modules rbxm file into roblox studio and put it in replicated storage for full representation
 Or view the reference png for reference.
