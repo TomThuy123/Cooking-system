@@ -5,3 +5,4 @@ Please insert the modules rbxm file into roblox studio and put it in replicated 
 Or view the reference png for reference.
 
 Note: The notification module within modules folder's main purpose is to showcase the cooking system, it is not an essential part of the "system" that I want to show.
+Video link: https://youtu.be/mG3bXBkZz8k
